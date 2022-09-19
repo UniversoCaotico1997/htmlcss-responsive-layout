@@ -100,7 +100,12 @@ footer{
 
 /* Responsive */
 @media screen and (max-width: 768px) {
-    
+    .col_6{
+        width: 100%;
+    }
+    .benefits .container .col_4{
+        width: 50%;
+    }
 }
 @media screen and (max-width: 480px) {
     
@@ -108,11 +113,10 @@ footer{
         background-color: black;
 }
     .row{
-        flex-direction: column;
-        
+        flex-direction: column; 
     }
-    .col_4{
-        width: 100;
+    .col_8, .col_6, .col_4{
+        width: 100%;
     } 
         
 }
