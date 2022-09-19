@@ -103,15 +103,13 @@ footer{
     .col_6{
         width: 100%;
     }
-    .benefits .container .col_4{
+    .benefits .container .row .col_4{
         width: 50%;
     }
 }
 @media screen and (max-width: 480px) {
-    
-    .application{
-        background-color: black;
-}
+
+
     .row{
         flex-direction: column; 
     }
