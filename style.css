@@ -1,3 +1,4 @@
+/* Utility */
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +8,9 @@
 :root{
    
 }
- /* Utility */
+/* #endUtility */
+
+
 header{
     background-color:#0084FD;
 }
@@ -27,9 +30,15 @@ header{
 .planning, .benefits, .call_to_action{
     background-color: #9792E4;
 }
+.application, .planning, .partners, .benefits, .about, .call_to_action{
+    padding: 2rem 0;
+}
+footer{
+    background-color: #333333;
+}
 
 
-
+/* column */
 .col_1{
     width: calc(100% / 12 * 1);
 }
@@ -66,9 +75,8 @@ header{
 .col_12{
     width: 100%;
 }
+/* #Endcolumn */
 
-
-/* endUtility */
 
 /* debug */
 
@@ -108,4 +116,4 @@ header{
     } 
         
 }
-/* EndResponsive */
+/* #EndResponsive */
