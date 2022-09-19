@@ -14,9 +14,58 @@ header{
 .container{
     width: 80%;
     margin:auto;
+}
+.top_banner{
     display: flex;
     justify-content: space-between;  
 }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.planning{
+    background-color: #9792E4;
+}
+
+
+.col_1{
+    width: calc(100% / 12 * 1);
+}
+.col_2{
+    width: calc(100% / 12 * 2);
+}
+.col_3{
+    width: calc(100% / 12 * 3);
+}
+.col_4{
+    width: calc(100% / 12 * 4);
+}
+.col_5{
+    width: calc(100% / 12 * 5);
+}
+.col_6{
+    width: 50%;
+}
+.col_7{
+    width: calc(100% / 12 * 7);
+}
+.col_8{
+    width: calc(100%/ 12 * 8);
+}
+.col_9{
+    width: calc(100% / 12 * 9);
+}
+.col_10{
+    width: calc(100% / 12 * 10);
+}
+.col_11{
+    width: calc(100% / 12 * 11);
+}
+.col_12{
+    width: 100%;
+}
+
 
 /* endUtility */
 
@@ -29,12 +78,33 @@ header{
     width: 100px;
     height: 40px;
     background-color: black;
-
+}
+.d-ebug{
+    border: 1px solid red;
+    height: 200px;
 }
 
-
-
-
-
-
 /* EndDebug */
+
+
+
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    
+}
+@media screen and (max-width: 480px) {
+    
+    .application{
+        background-color: black;
+}
+    .row{
+        flex-direction: column;
+        
+    }
+    .col_4{
+        width: 100;
+    } 
+        
+}
+/* EndResponsive */
