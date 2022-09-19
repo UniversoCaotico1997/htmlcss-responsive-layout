@@ -24,9 +24,10 @@ header{
     flex-wrap: wrap;
     justify-content: center;
 }
-.planning{
+.planning, .benefits, .call_to_action{
     background-color: #9792E4;
 }
+
 
 
 .col_1{
