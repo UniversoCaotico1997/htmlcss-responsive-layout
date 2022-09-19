@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+:root{
+   
+}
+ /* Utility */
+header{
+    background-color:#0084FD;
+}
+.container{
+    width: 80%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;  
+}
+
+/* endUtility */
+
+/* debug */
+
+.debug{
+    height: 80px;
+}
+.de_bug{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+
+}
+
+
+
+
+
+
+/* EndDebug */
