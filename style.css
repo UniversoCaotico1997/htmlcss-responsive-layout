@@ -23,7 +23,8 @@ header{
 }
 .top_banner{
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between; 
+    margin: 1rem 0; 
 }
 .row{
     display: flex;
@@ -50,11 +51,17 @@ a[href]{
 
 .btn{
     padding: 0.50rem;
-    background-color: white;
     color:#333333;
-    border-radius: 1rem;
-
+   
 }
+.btn_primary{
+    background-color: white;
+    border-radius: 1rem;
+}
+.bars{
+    display: none;
+}
+
 
 .planning, .benefits, .call_to_action{
     background-color: #9792E4;
@@ -135,6 +142,15 @@ footer{
     .col_12_m_d{
         width: 50%;
     }
+
+    .menu{
+        display: none;
+    }
+    .bars{
+        display: inline-block;
+    }
+
+    
 }
 @media screen and (max-width: 480px) {
     .row{
