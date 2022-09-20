@@ -33,7 +33,6 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
 }
 .d_flex{
     display: flex;
@@ -102,6 +101,17 @@ a[href]{
     color: #0084FD;
     padding: 1rem 0;
 }
+.card_left{
+    text-align: center;
+}
+.card_left_img{
+    width: 50%;
+}
+.content{
+    padding: 1rem;
+}
+
+
 
 .planning, .benefits, .call_to_action{
     background-color: #9792E4;
