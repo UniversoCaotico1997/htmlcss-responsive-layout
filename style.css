@@ -55,8 +55,10 @@ a[href]{
 .btn{
     padding: 0.50rem;
     color:#333333;
-   
 }
+
+/*Endheader  */
+
 .btn_primary{
     background-color: white;
     border-radius: 1rem;
@@ -101,11 +103,40 @@ a[href]{
     color: #0084FD;
     padding: 1rem 0;
 }
+/* planning */
+
+
 .card_left{
-    text-align: center;
+    margin: 0 3rem;
+    color: white;
 }
-.card_left_img{
-    width: 50%;
+.card_left h3, .card_right h3{
+    padding: 1rem 0;
+}
+.card_left p, .card_right p{
+    font-size: small;
+}
+.card_right{
+    background-color:#FFFFFF ;
+    border-radius: 25px;
+    text-align: center;
+    padding: 2rem;
+}
+.down{
+    width: 40px;
+    height: 40px;
+    background-color: #9792E4;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+    
+    
+}
+.size{
+    width: 70%;
 }
 .content{
     padding: 1rem;
